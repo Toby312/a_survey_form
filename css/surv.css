@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body{
+    background-image: url("/image/bckmg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+body h1, p{
+    text-align:center;
+    color: rgb(254, 254, 254);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+form{
+    max-width: 450px;
+    background-color: rgb(226, 146, 42);
+    box-shadow: 2px 5px rgb(148, 134, 134);
+    border-radius: 2px;
+    padding: 30px 20px;
+    margin: 0 auto;
+   
+}
+
+.form-style{
+    margin-bottom: 40px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.form-style label{
+    text-align: left;
+    
+}
+
+.form-style input, select{
+    display: block;
+    width: 100%;
+    padding: 5px;
+  
+}
+
+.form-style input[type="radio"]{
+    width: auto;
+    display: inline-block;
+  
+}
+
+.textarea{
+    text-align: center;
+    align-items: center;
+}
+
+textarea{
+   border-radius: 3px;
+   border-style: none;
+   max-width: 300px;
+   max-height: 300px;
+}
+
+.submit-button{
+    text-align: center;
+    margin-top: 30px;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(70, 70, 245);
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+}
+
+button:hover{
+    background-color: rgb(72, 72, 139);
+}
+
+input{
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: inherit;
+    border-style: none;
+}
